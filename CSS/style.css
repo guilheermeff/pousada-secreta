@@ -1,0 +1,262 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+/* ########## TOPO ########## */
+
+.topo {
+    width: 100vw;
+    height: 80px;
+    top: 0;
+    margin: 0;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#conteudo-topo {
+    width: 1024px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.link-inicio {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #000;
+}
+
+.link-topo {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #000;
+}
+
+#secreta {
+    color: rgb(122,159,197);
+}
+
+/* ########## INÍCIO CORPO ########## */
+
+/* ########## CAIXA 1 ########## */
+
+.corpo {
+    width: 100vw;
+    max-width: 1600px;
+    margin: 0;
+    border: 0;
+}
+
+#plano-de-fundo {
+    width: 100VW;
+    height: 720px;
+    margin-top: 82px;
+    background: url('../assets/img-fundo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#titulo-pousada {
+    background-color: rgb(69,164,138);
+    opacity: 0.8;
+    border: 1px solid white;
+    padding: 20px 15px;
+    z-index: 1;
+}
+
+#titulo-pousada h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+#titulo-pousada p {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+/* ########## CAIXA 2 ########## */
+
+/* ######### TEXTO ########## */
+
+.titulos {
+    width: 100vw;
+    color: rgb(54,56,61);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulos h2 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.titulos p {
+    font-weight: lighter;
+}
+
+/* ########## MODELO DOS QUARTOS ########## */
+
+.modelo-quartos {
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa-quarto {
+    border-bottom: 2px solid rgb(66,119,111);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+}
+
+.link-caixa {
+    text-align: center;
+    padding-top: 23px;
+    text-decoration: none;
+    color: rgb(54,56,61);
+    font-weight: bold;
+}
+
+/* ########## ROTA POUSADA ########## */
+
+#rota-pousada {
+    width: 100vw;
+    color: rgb(54,56,61);
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#rota-pousada h2 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#rota-pousada p {
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+/* ########## MAPA ########## */
+
+.localizacao-google {
+    width: 100vw;
+}
+
+iframe {
+    width: 100vw;
+}
+
+/* ########## SOBRE ########## */
+
+#sobre-a-pousada {
+    width: 100vw;
+    color: rgb(54,56,61);
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sobre-a-pousada h2 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#sobre-a-pousada p {
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+/* ########## MAIS INFORMAÇÕES ########## */
+
+.mais-informacoes {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.caixa-informacoes {
+    width: 45%;
+    height: 160px;
+    margin: 30px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao {
+    color: rgb(54,56,61);
+    margin-left: 10px;
+}
+
+.descricao h4,
+.descrcao p {
+    text-align: justify;
+}
+
+.img-infos {
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+/* ########### RODAPÉ ########## */
+
+.caixa-rodape {
+    margin-top: 80px;
+    background-color: rgb(63,156,104);
+    padding: 30px 40px 5px 40px;
+}
+
+#dados-de-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-contato {
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#caixa-contato img {
+    float: left;
+}
+
+.link-rodape {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+#copyright {
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid rgb(54,56,61);
+}
